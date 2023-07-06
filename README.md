@@ -26,3 +26,10 @@ function func(array $event): string
 
 CMD [ "examples/app/index.func" ]
 ```
+
+## Rebuild and deployment via CLI
+
+> **( ! )** First copy `utils/build-and-push-demo.sh` to `utils/build-and-push.sh` and change info.
+```sh
+bash ./utils/build-and-push.sh
+```
