@@ -1,2 +1,7 @@
 laravel-app
 !laravel-app/.gitkeep
+vendor/
+env.php
+*no*commit*
+.env
+build_and_push_to_aws_ecr.sh
