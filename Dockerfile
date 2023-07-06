@@ -18,4 +18,4 @@ RUN chmod +x /var/runtime/bootstrap
 COPY . /var/task
 
 # Configure o handler da função Lambda
-# CMD [ "lambdaRunnerFile.handler" ]
+CMD [ "php-app/lambdaRunnerFile.handler" ]
